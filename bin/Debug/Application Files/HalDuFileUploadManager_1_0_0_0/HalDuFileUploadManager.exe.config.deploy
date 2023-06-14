@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8" />
+  </startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Owin" publicKeyToken="31bf3856ad364e35" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.2.2.0" newVersion="4.2.2.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Memory" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.1.2" newVersion="4.0.1.2" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Extensions.Logging.Abstractions" publicKeyToken="adb9793829ddae60" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-6.0.0.2" newVersion="6.0.0.2" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Extensions.Configuration.Abstractions" publicKeyToken="adb9793829ddae60" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Extensions.Logging" publicKeyToken="adb9793829ddae60" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Extensions.DependencyInjection.Abstractions" publicKeyToken="adb9793829ddae60" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Extensions.Primitives" publicKeyToken="adb9793829ddae60" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Numerics.Vectors" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.1.4.0" newVersion="4.1.4.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <appSettings>
+    <add key="DevXaviURL" value="https://fdsatoridev.azurefd.net/xavi/api/v1/halfile/" />
+    <add key="DevXaviScope" value="https://xavi-dev.azurewebsites.net/.default" />
+    <!--<add key="DevXaviClientSecret" value="p-.qrj8af.CoGG6z_T_OM94Eb_T-OH8Qs7" />
+		<add key="DevXaviClientId" value="83556649-af97-4f62-8d04-35930d4617d4" />-->
+    <add key="UATXaviURL" value="https://satoritest.halliburton.com/xavi/api/v1/halfile/" />
+    <add key="UATXaviScope" value="https://satoritest.halliburton.com/.default" />
+    <!--<add key="UATXaviClientSecret" value="-Pm~.~aNCaK46mGi8t9_gV7GqP3jq6qqPq" />
+		<add key="UATXaviClientId" value="83556649-af97-4f62-8d04-35930d4617d4" />-->
+    <add key="PRODXaviURL" value="https://satori.halliburton.com/xavi/api/v1/halfile/" />
+    <add key="PRODXaviScope" value="https://satori.halliburton.com/.default" />
+    <!--<add key="PRODXaviClientSecret" value="kJs8Q~Ik5JKKkvrXVgk6cE6yX9xgTmRo6vHGtcTC" />
+		<add key="PRODXaviClientId" value="5ed11115-aa15-4ec5-ad3b-5b44b0fafd4f" />-->
+    <add key="XaviTenantId" value="b7be7686-6f97-4db7-9081-a23cf09a96b5" />
+    <add key="StorageAccountName" value="dlsdevsatori" />
+    <add key="StorageAccountKey" value="q3lEbhq/FWCy/0yM6KovErUXNVJNfgM6TZlOzTGje/QBgJH+WSj+P86wzy4+OGCd+iAphDXBZW8S3p+k3fi8RA==" />
+    <add key="Environment" value="DEV" />
+    <add key="RetryThreshhold" value="2" />
+    <add key="RetryDelayInMs" value="10000" />
+    <add key="StateBinaryFilePath" value="C:\HalDUFileUploader\StateBinary\StateMachine.bin" />
+    <add key="MaxWaitingTime" value="60" />
+    <add key="MD5HashCheckDelay" value="300000" />
+    <!--<add key="MD5HashRetryDelayInSec" value="30" />
+		<add key="MD5HashMaxRetryCount" value="10" />-->
+    <add key="CleanupStateMachineIntervalDays" value="1" />
+    <add key="StateManagerCleanUpDays" value="15" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+  </appSettings>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+      </providers>
+    </roleManager>
+  </system.web>
+</configuration>
